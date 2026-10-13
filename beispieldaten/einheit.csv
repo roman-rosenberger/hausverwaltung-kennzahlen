@@ -1,0 +1,206 @@
+einheit_id;objekt_id;bezeichnung;nutzungsart;flaeche_qm;zimmer;etage;balkon;ausstattungsklasse
+OBJ-01-G01;OBJ-01;Ladenlokal EG;Gewerbe;85,00;;0;nein;normal
+OBJ-01-G02;OBJ-01;Gewerbeeinheit EG;Gewerbe;85,00;;0;nein;normal
+OBJ-01-GA01;OBJ-01;Garage 1;Garage;0,00;;;nein;einfach
+OBJ-01-GA02;OBJ-01;Garage 2;Garage;0,00;;;nein;einfach
+OBJ-01-W01;OBJ-01;EG links;Wohnen;53,94;2,0;0;nein;normal
+OBJ-01-W02;OBJ-01;1. OG links;Wohnen;80,26;3,0;1;nein;normal
+OBJ-01-W03;OBJ-01;2. OG links;Wohnen;63,93;3,0;2;nein;normal
+OBJ-01-W04;OBJ-01;3. OG links;Wohnen;53,67;2,0;3;nein;normal
+OBJ-01-W05;OBJ-01;4. OG links;Wohnen;68,14;3,0;4;nein;normal
+OBJ-01-W06;OBJ-01;EG rechts;Wohnen;75,34;3,0;0;ja;normal
+OBJ-01-W07;OBJ-01;1. OG rechts;Wohnen;89,06;3,5;1;ja;gehoben
+OBJ-01-W08;OBJ-01;2. OG rechts;Wohnen;68,42;3,0;2;nein;normal
+OBJ-01-W09;OBJ-01;3. OG rechts;Wohnen;52,22;2,0;3;nein;gehoben
+OBJ-01-W10;OBJ-01;4. OG rechts;Wohnen;84,44;3,5;4;nein;normal
+OBJ-01-W11;OBJ-01;EG Mitte;Wohnen;56,12;2,5;0;nein;normal
+OBJ-01-W12;OBJ-01;1. OG Mitte;Wohnen;59,53;2,5;1;nein;einfach
+OBJ-01-W13;OBJ-01;2. OG Mitte;Wohnen;52,16;2,0;2;ja;normal
+OBJ-01-W14;OBJ-01;3. OG Mitte;Wohnen;73,30;3,0;3;nein;normal
+OBJ-01-W15;OBJ-01;4. OG Mitte;Wohnen;89,69;3,5;4;nein;gehoben
+OBJ-01-W16;OBJ-01;EG links;Wohnen;67,01;3,0;0;nein;normal
+OBJ-01-W17;OBJ-01;1. OG links;Wohnen;79,10;3,0;1;ja;einfach
+OBJ-01-W18;OBJ-01;2. OG links;Wohnen;56,51;2,5;2;ja;normal
+OBJ-01-W19;OBJ-01;3. OG links;Wohnen;51,45;2,0;3;nein;normal
+OBJ-01-W20;OBJ-01;4. OG links;Wohnen;78,07;3,0;4;nein;normal
+OBJ-02-G01;OBJ-02;Ladenlokal EG;Gewerbe;72,00;;0;nein;normal
+OBJ-02-G02;OBJ-02;Gewerbeeinheit EG;Gewerbe;65,00;;0;nein;normal
+OBJ-02-G03;OBJ-02;Gewerbeeinheit 1. OG;Gewerbe;78,00;;1;nein;normal
+OBJ-02-HM01;OBJ-02;Hausmeisterwohnung EG;Sonstiges;45,00;2,0;0;nein;einfach
+OBJ-02-S01;OBJ-02;Stellplatz 1;Stellplatz;0,00;;;nein;einfach
+OBJ-02-S02;OBJ-02;Stellplatz 2;Stellplatz;0,00;;;nein;einfach
+OBJ-02-S03;OBJ-02;Stellplatz 3;Stellplatz;0,00;;;nein;einfach
+OBJ-02-S04;OBJ-02;Stellplatz 4;Stellplatz;0,00;;;nein;einfach
+OBJ-02-W01;OBJ-02;EG links;Wohnen;63,81;3,0;0;nein;einfach
+OBJ-02-W02;OBJ-02;1. OG links;Wohnen;54,11;2,5;1;ja;normal
+OBJ-02-W03;OBJ-02;2. OG links;Wohnen;54,35;2,5;2;ja;einfach
+OBJ-02-W04;OBJ-02;3. OG links;Wohnen;50,45;2,0;3;ja;normal
+OBJ-02-W05;OBJ-02;4. OG links;Wohnen;42,96;2,0;4;ja;einfach
+OBJ-02-W06;OBJ-02;5. OG links;Wohnen;67,53;3,0;5;ja;normal
+OBJ-02-W07;OBJ-02;6. OG links;Wohnen;69,13;3,0;6;ja;normal
+OBJ-02-W08;OBJ-02;7. OG links;Wohnen;74,42;3,0;7;ja;einfach
+OBJ-02-W09;OBJ-02;8. OG links;Wohnen;65,52;3,0;8;ja;einfach
+OBJ-02-W10;OBJ-02;EG rechts;Wohnen;65,45;3,0;0;ja;normal
+OBJ-02-W11;OBJ-02;1. OG rechts;Wohnen;46,74;2,0;1;ja;einfach
+OBJ-02-W12;OBJ-02;2. OG rechts;Wohnen;;2,0;2;nein;einfach
+OBJ-02-W13;OBJ-02;3. OG rechts;Wohnen;75,97;3,0;3;ja;gehoben
+OBJ-02-W14;OBJ-02;4. OG rechts;Wohnen;52,21;2,0;4;ja;gehoben
+OBJ-02-W15;OBJ-02;5. OG rechts;Wohnen;70,97;3,0;5;nein;normal
+OBJ-02-W16;OBJ-02;6. OG rechts;Wohnen;75,75;3,0;6;ja;normal
+OBJ-02-W17;OBJ-02;7. OG rechts;Wohnen;61,79;2,5;7;nein;einfach
+OBJ-02-W18;OBJ-02;8. OG rechts;Wohnen;53,62;2,0;8;ja;normal
+OBJ-02-W19;OBJ-02;EG Mitte;Wohnen;60,38;2,5;0;ja;einfach
+OBJ-02-W20;OBJ-02;1. OG Mitte;Wohnen;73,24;3,0;1;ja;einfach
+OBJ-02-W21;OBJ-02;2. OG Mitte;Wohnen;63,41;3,0;2;ja;normal
+OBJ-02-W22;OBJ-02;3. OG Mitte;Wohnen;54,78;2,5;3;ja;normal
+OBJ-02-W23;OBJ-02;4. OG Mitte;Wohnen;47,58;2,0;4;nein;gehoben
+OBJ-02-W24;OBJ-02;5. OG Mitte;Wohnen;53,19;2,0;5;nein;normal
+OBJ-02-W25;OBJ-02;6. OG Mitte;Wohnen;71,73;3,0;6;ja;normal
+OBJ-02-W26;OBJ-02;7. OG Mitte;Wohnen;50,82;2,0;7;ja;normal
+OBJ-02-W27;OBJ-02;8. OG Mitte;Wohnen;49,22;2,0;8;ja;einfach
+OBJ-02-W28;OBJ-02;EG links;Wohnen;70,27;3,0;0;ja;einfach
+OBJ-02-W29;OBJ-02;1. OG links;Wohnen;52,49;2,0;1;ja;einfach
+OBJ-02-W30;OBJ-02;2. OG links;Wohnen;68,63;3,0;2;nein;einfach
+OBJ-02-W31;OBJ-02;3. OG links;Wohnen;45,61;2,0;3;ja;normal
+OBJ-02-W32;OBJ-02;4. OG links;Wohnen;52,68;2,0;4;nein;einfach
+OBJ-02-W33;OBJ-02;5. OG links;Wohnen;46,28;2,0;5;ja;normal
+OBJ-02-W34;OBJ-02;6. OG links;Wohnen;68,43;3,0;6;ja;einfach
+OBJ-02-W35;OBJ-02;7. OG links;Wohnen;47,82;2,0;7;ja;normal
+OBJ-02-W36;OBJ-02;8. OG links;Wohnen;61,43;2,5;8;nein;einfach
+OBJ-02-W37;OBJ-02;EG rechts;Wohnen;60,58;2,5;0;ja;einfach
+OBJ-03-G01;OBJ-03;Ladenlokal EG;Gewerbe;70,00;;0;nein;normal
+OBJ-03-GA01;OBJ-03;Garage 1;Garage;0,00;;;nein;einfach
+OBJ-03-W01;OBJ-03;EG links;Wohnen;53,56;2,0;0;nein;einfach
+OBJ-03-W02;OBJ-03;1. OG links;Wohnen;56,32;2,5;1;nein;normal
+OBJ-03-W03;OBJ-03;2. OG links;Wohnen;71,26;3,0;2;nein;gehoben
+OBJ-03-W04;OBJ-03;3. OG links;Wohnen;58,96;2,5;3;ja;normal
+OBJ-03-W05;OBJ-03;4. OG links;Wohnen;;3,0;4;nein;einfach
+OBJ-03-W06;OBJ-03;5. OG links;Wohnen;69,90;3,0;5;nein;gehoben
+OBJ-03-W07;OBJ-03;6. OG links;Wohnen;58,66;2,5;6;nein;einfach
+OBJ-03-W08;OBJ-03;EG rechts;Wohnen;69,83;3,0;0;ja;normal
+OBJ-03-W09;OBJ-03;1. OG rechts;Wohnen;46,66;2,0;1;nein;einfach
+OBJ-03-W10;OBJ-03;2. OG rechts;Wohnen;64,81;3,0;2;nein;einfach
+OBJ-03-W11;OBJ-03;3. OG rechts;Wohnen;43,94;2,0;3;ja;normal
+OBJ-03-W12;OBJ-03;4. OG rechts;Wohnen;42,21;2,0;4;nein;einfach
+OBJ-03-W13;OBJ-03;5. OG rechts;Wohnen;44,55;2,0;5;ja;normal
+OBJ-03-W14;OBJ-03;6. OG rechts;Wohnen;65,22;3,0;6;nein;normal
+OBJ-03-W15;OBJ-03;EG Mitte;Wohnen;53,84;2,0;0;ja;normal
+OBJ-03-W16;OBJ-03;1. OG Mitte;Wohnen;48,56;2,0;1;nein;normal
+OBJ-03-W17;OBJ-03;2. OG Mitte;Wohnen;50,19;2,0;2;ja;normal
+OBJ-03-W18;OBJ-03;3. OG Mitte;Wohnen;59,38;2,5;3;nein;einfach
+OBJ-03-W19;OBJ-03;4. OG Mitte;Wohnen;62,24;3,0;4;ja;normal
+OBJ-03-W20;OBJ-03;5. OG Mitte;Wohnen;53,41;2,0;5;ja;normal
+OBJ-03-W21;OBJ-03;6. OG Mitte;Wohnen;59,54;2,5;6;nein;normal
+OBJ-03-W22;OBJ-03;EG links;Wohnen;57,31;2,5;0;nein;normal
+OBJ-03-W23;OBJ-03;1. OG links;Wohnen;47,93;2,0;1;nein;einfach
+OBJ-03-W24;OBJ-03;2. OG links;Wohnen;49,90;2,0;2;nein;gehoben
+OBJ-03-W25;OBJ-03;3. OG links;Wohnen;56,74;2,5;3;nein;einfach
+OBJ-03-W26;OBJ-03;4. OG links;Wohnen;41,50;2,0;4;nein;einfach
+OBJ-03-W27;OBJ-03;5. OG links;Wohnen;68,89;3,0;5;ja;normal
+OBJ-03-W28;OBJ-03;6. OG links;Wohnen;53,62;2,0;6;nein;normal
+OBJ-04-G01;OBJ-04;Ladenlokal EG;Gewerbe;140,00;;0;nein;normal
+OBJ-04-G02;OBJ-04;Gewerbeeinheit EG;Gewerbe;110,00;;0;nein;normal
+OBJ-04-G03;OBJ-04;Gewerbeeinheit 1. OG;Gewerbe;88,00;;1;nein;normal
+OBJ-04-S01;OBJ-04;Stellplatz 1;Stellplatz;0,00;;;nein;einfach
+OBJ-04-W01;OBJ-04;EG links;Wohnen;10,10;4,0;0;ja;normal
+OBJ-04-W02;OBJ-04;EG rechts;Wohnen;76,53;3,0;0;ja;normal
+OBJ-04-W03;OBJ-04;EG Mitte;Wohnen;97,76;4,0;0;nein;gehoben
+OBJ-04-W04;OBJ-04;EG links;Wohnen;88,80;3,5;0;ja;normal
+OBJ-05-G01;OBJ-05;Ladenlokal EG;Gewerbe;130,00;;0;nein;normal
+OBJ-05-G02;OBJ-05;Gewerbeeinheit EG;Gewerbe;105,00;;0;nein;normal
+OBJ-05-S01;OBJ-05;TG-Stellplatz 1;Stellplatz;0,00;;-1;nein;einfach
+OBJ-05-S02;OBJ-05;TG-Stellplatz 2;Stellplatz;0,00;;-1;nein;einfach
+OBJ-05-S03;OBJ-05;TG-Stellplatz 3;Stellplatz;0,00;;-1;nein;einfach
+OBJ-05-W01;OBJ-05;EG links;Wohnen;76,53;3,0;0;ja;gehoben
+OBJ-05-W02;OBJ-05;1. OG links;Wohnen;66,76;3,0;1;ja;gehoben
+OBJ-05-W03;OBJ-05;2. OG links;Wohnen;102,08;4,0;2;ja;gehoben
+OBJ-05-W04;OBJ-05;EG rechts;Wohnen;107,38;4,0;0;ja;gehoben
+OBJ-05-W05;OBJ-05;1. OG rechts;Wohnen;87,60;3,5;1;ja;gehoben
+OBJ-05-W06;OBJ-05;2. OG rechts;Wohnen;69,42;3,0;2;ja;gehoben
+OBJ-05-W07;OBJ-05;EG Mitte;Wohnen;79,75;3,0;0;ja;gehoben
+OBJ-05-W08;OBJ-05;1. OG Mitte;Wohnen;97,41;4,0;1;ja;gehoben
+OBJ-05-W09;OBJ-05;2. OG Mitte;Wohnen;79,30;3,0;2;ja;gehoben
+OBJ-05-W10;OBJ-05;EG links;Wohnen;100,23;4,0;0;ja;gehoben
+OBJ-05-W11;OBJ-05;1. OG links;Wohnen;82,47;3,5;1;ja;gehoben
+OBJ-05-W12;OBJ-05;2. OG links;Wohnen;69,90;3,0;2;ja;gehoben
+OBJ-05-W13;OBJ-05;EG rechts;Wohnen;85,26;3,5;0;ja;gehoben
+OBJ-06-G01;OBJ-06;Ladenlokal EG;Gewerbe;88,00;;0;nein;normal
+OBJ-06-G02;OBJ-06;Gewerbeeinheit EG;Gewerbe;74,00;;0;nein;normal
+OBJ-06-GA01;OBJ-06;Garage 1;Garage;0,00;;;nein;einfach
+OBJ-06-GA02;OBJ-06;Garage 2;Garage;0,00;;;nein;einfach
+OBJ-06-W01;OBJ-06;EG links;Wohnen;55,21;2,5;0;nein;normal
+OBJ-06-W02;OBJ-06;1. OG links;Wohnen;74,16;3,0;1;nein;normal
+OBJ-06-W03;OBJ-06;2. OG links;Wohnen;46,54;2,0;2;ja;normal
+OBJ-06-W04;OBJ-06;3. OG links;Wohnen;51,51;2,0;3;nein;normal
+OBJ-06-W05;OBJ-06;4. OG links;Wohnen;47,17;2,0;4;nein;normal
+OBJ-06-W06;OBJ-06;5. OG links;Wohnen;45,87;2,0;5;nein;gehoben
+OBJ-06-W07;OBJ-06;EG rechts;Wohnen;57,31;2,5;0;nein;normal
+OBJ-06-W08;OBJ-06;1. OG rechts;Wohnen;69,42;3,0;1;ja;gehoben
+OBJ-06-W09;OBJ-06;2. OG rechts;Wohnen;48,34;2,0;2;nein;gehoben
+OBJ-06-W10;OBJ-06;3. OG rechts;Wohnen;57,50;2,5;3;nein;gehoben
+OBJ-06-W11;OBJ-06;4. OG rechts;Wohnen;66,50;3,0;4;ja;normal
+OBJ-06-W12;OBJ-06;5. OG rechts;Wohnen;71,09;3,0;5;ja;normal
+OBJ-06-W13;OBJ-06;EG Mitte;Wohnen;71,76;3,0;0;nein;normal
+OBJ-06-W14;OBJ-06;1. OG Mitte;Wohnen;54,27;2,5;1;nein;gehoben
+OBJ-06-W15;OBJ-06;2. OG Mitte;Wohnen;66,03;3,0;2;ja;normal
+OBJ-06-W16;OBJ-06;3. OG Mitte;Wohnen;53,56;2,0;3;nein;normal
+OBJ-06-W17;OBJ-06;4. OG Mitte;Wohnen;70,57;3,0;4;nein;normal
+OBJ-06-W18;OBJ-06;5. OG Mitte;Wohnen;44,28;2,0;5;ja;normal
+OBJ-06-W19;OBJ-06;EG links;Wohnen;71,68;3,0;0;nein;normal
+OBJ-06-W20;OBJ-06;1. OG links;Wohnen;75,04;3,0;1;nein;normal
+OBJ-06-W21;OBJ-06;2. OG links;Wohnen;78,16;3,0;2;ja;gehoben
+OBJ-06-W22;OBJ-06;3. OG links;Wohnen;70,47;3,0;3;ja;einfach
+OBJ-06-W23;OBJ-06;4. OG links;Wohnen;47,40;2,0;4;nein;normal
+OBJ-06-W24;OBJ-06;5. OG links;Wohnen;50,72;2,0;5;nein;normal
+OBJ-07-G01;OBJ-07;Ladenlokal EG;Gewerbe;95,00;;0;nein;normal
+OBJ-07-G02;OBJ-07;Gewerbeeinheit EG;Gewerbe;82,00;;0;nein;normal
+OBJ-07-G03;OBJ-07;Gewerbeeinheit 1. OG;Gewerbe;90,00;;1;nein;normal
+OBJ-07-S01;OBJ-07;Stellplatz 1;Stellplatz;0,00;;;nein;einfach
+OBJ-07-S02;OBJ-07;Stellplatz 2;Stellplatz;0,00;;;nein;einfach
+OBJ-07-W01;OBJ-07;EG links;Wohnen;83,46;3,5;0;ja;normal
+OBJ-07-W02;OBJ-07;1. OG links;Wohnen;78,90;3,0;1;nein;normal
+OBJ-07-W03;OBJ-07;2. OG links;Wohnen;69,35;3,0;2;ja;normal
+OBJ-07-W04;OBJ-07;3. OG links;Wohnen;60,02;2,5;3;nein;normal
+OBJ-07-W05;OBJ-07;4. OG links;Wohnen;75,36;3,0;4;ja;normal
+OBJ-07-W06;OBJ-07;5. OG links;Wohnen;79,40;3,0;5;ja;normal
+OBJ-07-W07;OBJ-07;6. OG links;Wohnen;81,72;3,0;6;nein;normal
+OBJ-07-W08;OBJ-07;7. OG links;Wohnen;70,07;3,0;7;ja;normal
+OBJ-07-W09;OBJ-07;EG rechts;Wohnen;46,65;2,0;0;ja;gehoben
+OBJ-07-W10;OBJ-07;1. OG rechts;Wohnen;74,08;3,0;1;nein;normal
+OBJ-07-W11;OBJ-07;2. OG rechts;Wohnen;48,59;2,0;2;nein;einfach
+OBJ-07-W12;OBJ-07;3. OG rechts;Wohnen;50,59;2,0;3;nein;normal
+OBJ-07-W13;OBJ-07;4. OG rechts;Wohnen;51,07;2,0;4;ja;einfach
+OBJ-07-W14;OBJ-07;5. OG rechts;Wohnen;81,60;3,0;5;ja;normal
+OBJ-07-W15;OBJ-07;6. OG rechts;Wohnen;46,51;2,0;6;ja;normal
+OBJ-07-W16;OBJ-07;7. OG rechts;Wohnen;74,48;3,0;7;ja;gehoben
+OBJ-07-W17;OBJ-07;EG Mitte;Wohnen;81,35;3,0;0;ja;normal
+OBJ-07-W18;OBJ-07;1. OG Mitte;Wohnen;53,13;2,0;1;ja;gehoben
+OBJ-07-W19;OBJ-07;2. OG Mitte;Wohnen;53,85;2,0;2;nein;einfach
+OBJ-07-W20;OBJ-07;3. OG Mitte;Wohnen;54,96;2,5;3;ja;einfach
+OBJ-07-W21;OBJ-07;4. OG Mitte;Wohnen;49,34;2,0;4;ja;gehoben
+OBJ-07-W22;OBJ-07;5. OG Mitte;Wohnen;78,01;3,0;5;ja;normal
+OBJ-07-W23;OBJ-07;6. OG Mitte;Wohnen;76,65;3,0;6;ja;gehoben
+OBJ-07-W24;OBJ-07;7. OG Mitte;Wohnen;54,16;2,5;7;ja;normal
+OBJ-07-W25;OBJ-07;EG links;Wohnen;64,31;3,0;0;nein;normal
+OBJ-07-W26;OBJ-07;1. OG links;Wohnen;82,18;3,5;1;nein;gehoben
+OBJ-07-W27;OBJ-07;2. OG links;Wohnen;81,17;3,0;2;ja;normal
+OBJ-07-W28;OBJ-07;3. OG links;Wohnen;;3,5;3;ja;normal
+OBJ-07-W29;OBJ-07;4. OG links;Wohnen;80,48;3,0;4;ja;normal
+OBJ-07-W30;OBJ-07;5. OG links;Wohnen;76,76;3,0;5;nein;normal
+OBJ-07-W31;OBJ-07;6. OG links;Wohnen;60,70;2,5;6;ja;normal
+OBJ-07-W32;OBJ-07;7. OG links;Wohnen;81,24;3,0;7;ja;einfach
+OBJ-07-W33;OBJ-07;EG rechts;Wohnen;80,41;3,0;0;nein;normal
+OBJ-08-G01;OBJ-08;Ladenlokal EG;Gewerbe;84,00;;0;nein;normal
+OBJ-08-GA01;OBJ-08;Garage 1;Garage;0,00;;;nein;einfach
+OBJ-08-GA02;OBJ-08;Garage 2;Garage;0,00;;;nein;einfach
+OBJ-08-W01;OBJ-08;EG links;Wohnen;43,05;2,0;0;ja;normal
+OBJ-08-W02;OBJ-08;1. OG links;Wohnen;51,10;2,0;1;ja;normal
+OBJ-08-W03;OBJ-08;2. OG links;Wohnen;43,91;2,0;2;ja;normal
+OBJ-08-W04;OBJ-08;EG rechts;Wohnen;61,30;2,5;0;ja;einfach
+OBJ-08-W05;OBJ-08;1. OG rechts;Wohnen;61,55;2,5;1;nein;normal
+OBJ-08-W06;OBJ-08;2. OG rechts;Wohnen;60,91;2,5;2;ja;einfach
+OBJ-08-W07;OBJ-08;EG Mitte;Wohnen;41,75;2,0;0;nein;einfach
+OBJ-08-W08;OBJ-08;1. OG Mitte;Wohnen;62,52;3,0;1;ja;gehoben
+OBJ-08-W09;OBJ-08;2. OG Mitte;Wohnen;60,77;2,5;2;nein;normal
+OBJ-08-W10;OBJ-08;EG links;Wohnen;45,61;2,0;0;nein;normal
+OBJ-08-W11;OBJ-08;1. OG links;Wohnen;43,63;2,0;1;ja;einfach

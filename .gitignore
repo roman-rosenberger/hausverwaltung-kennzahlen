@@ -2,6 +2,7 @@
 daten/
 data/
 *.csv
+!beispieldaten/*.csv
 *.dump
 *.backup
 dump-*.sql

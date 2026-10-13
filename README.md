@@ -32,7 +32,7 @@ Geplant, aus dem Feedback eines Controllers aus der Branche:
 Das Repository enthält keine Daten und keine Power-BI-Dateien. Die Views zeigen Einzelfälle nur mit Vertrags- oder Einheitsnummer, nicht mit Namen.
 
 ## Technik
-Stand der Kontrollwerte: Testbestand, Stichtag 31.08.2026. Views und Kontrollwerte: geprüft mit PostgreSQL 17 am vollständigen Testbestand. Ladeskript und Installation: zusätzlich mit Beispielzeilen unter PostgreSQL 16 ausgeführt. Es sind keine Erweiterungen nötig.
+Stand der Kontrollwerte: Testbestand, Stichtag 31.08.2026. Das komplette Paket (Schema, Laden, Views, Kontrollwerte) ist von null auf PostgreSQL 17 (Windows) und PostgreSQL 16 (Linux) mit dem vollständigen Testbestand durchgelaufen; alle Kontrollwerte stimmen. Es sind keine Erweiterungen nötig.
 
 ## Inhalt
 | Datei / Ordner | Zweck |
@@ -43,10 +43,14 @@ Stand der Kontrollwerte: Testbestand, Stichtag 31.08.2026. Views und Kontrollwer
 | `install_alle.sql` | Alle Dateien aus `sql/` in einer Datei |
 | `kontrollwerte.sql` | Prüfwerte auf dem Testbestand |
 | `kontrollwerte_je_objekt.sql` | Soll-Werte je Objekt (nur Testbestand); erwartet: keine Zeile |
+| `beispieldaten/` | Der synthetische Testbestand (18 CSV-Dateien, siehe unten) |
 | `pflichtfelder.md` | Welche Tabellen und Felder jede Kennzahl braucht |
 
+## Beispieldaten
+Im Ordner `beispieldaten/` liegt der synthetische Testbestand von Tim Goebel (8 Objekte im Ruhrgebiet, 205 Einheiten, 36 Monate, rund 51.000 Datenzeilen). Alle Namen, E-Mail-Adressen und Telefonnummern sind erfunden. Der Bestand enthält absichtlich Fehler und Auffälligkeiten, wie sie in der Praxis vorkommen (z. B. fehlende Flächen, Zahlungen ohne Zuordnung, gemischte Zeichenkodierung in einigen Namen).
+
 ## Aufsetzen von Null
-Voraussetzung: PostgreSQL-Client `psql` und ein Server. Die CSV-Dateien (Semikolon, UTF-8, Dezimalkomma, `ja`/`nein` für Wahrheitswerte, Kopfzeile) liegen im Ordner `daten/` neben `load/`. Alle Befehle aus dem Paketordner ausführen. Unter Windows (PowerShell) vorher `psql` bekannt machen und die Kodierung setzen, sonst werden Umlaute in den Skripten falsch gelesen:
+Voraussetzung: PostgreSQL-Client `psql` und ein Server. Die CSV-Dateien (Semikolon, UTF-8, Dezimalkomma, `ja`/`nein` für Wahrheitswerte, Kopfzeile) liegen im Ordner `daten/` neben `load/`. Zum Ausprobieren mit den Beispieldaten den Ordner `beispieldaten` einmal als `daten` kopieren (PowerShell: `Copy-Item beispieldaten daten -Recurse`, Linux/macOS: `cp -r beispieldaten daten`). Alle Befehle aus dem Paketordner ausführen. Unter Windows (PowerShell) vorher `psql` bekannt machen und die Kodierung setzen, sonst werden Umlaute in den Skripten falsch gelesen:
 
 ```
 $env:Path += ";C:\Program Files\PostgreSQL\17\bin"

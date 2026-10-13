@@ -1,0 +1,9 @@
+objekt_id;bezeichnung;strasse;plz;ort;ortsteil;baujahr;letzte_modernisierung;nutzungsart;grundstuecksflaeche_qm;wohnflaeche_gesamt_qm;anzahl_einheiten;lagequalitaet;heizungsart;heizung_baujahr
+OBJ-01;Weißdornhöfe;Silberpappelweg 3-5;44135;Dortmund;Kaiserbrück;1958;1995;Gemischt;2100,00;1522,36;24;mittel;Gas-Zentralheizung;2009
+OBJ-02;Glückauf-Karree;Konsulstraße 12-18;45888;Gelsenkirchen;Grubenlicht-Siedlung;1972;1998;Gemischt;6400,00;2448,61;45;einfach;Fernwärme;1996
+OBJ-03;Siedlung Alte Kokerei;Koksallee 2-8;45329;Essen;Kokereiviertel;1961;1989;Gemischt;4100,00;1641,76;30;einfach;Gas-Zentralheizung;1999
+OBJ-04;Stadthaus Bergamtsgasse;Bergamtsgasse 4;44787;Bochum;Amtsgraben;1994;;Gemischt;900,00;702,41;8;gut;Gas-Brennwert;2016
+OBJ-05;Parkresidenz Lindenkamp;Lindenkamp 11;45133;Essen;Lindenkamp;2017;;Gemischt;1700,00;1339,09;18;gut;Wärmepumpe;2017
+OBJ-06;Kanalblick-Höfe;Schleusenweg 21-25;46049;Oberhausen;Kanalviertel;1955;2003;Gemischt;3300,00;1606,56;28;mittel;Gas-Zentralheizung;2011
+OBJ-07;Quartier Hermannshöhe;Hermannshöhe 30-36;44628;Herne;Steigerfeld;1976;2007;Gemischt;5200,00;2529,95;38;mittel;Fernwärme;2007
+OBJ-08;Wohnhof Tonhalde;Tonhaldenstraße 9;45966;Gladbeck;Tonhalde;1968;;Gemischt;1900,00;660,10;14;einfach;Gas-Etagenheizung;

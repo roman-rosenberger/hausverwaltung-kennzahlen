@@ -1,0 +1,17 @@
+dienstleister_id;name;gewerk;rahmenvertrag
+DL-01;Heizungsbau Terwiel GmbH;Heizung;ja
+DL-02;Sanitär Krawczyk GmbH;Sanitär;nein
+DL-03;Rohr & Bad Nientiedt GmbH;Sanitär;ja
+DL-04;Elektro Piontek;Elektro;nein
+DL-05;Elektrotechnik Brune GmbH & Co. KG;Elektro;ja
+DL-06;Malerbetrieb Farbklang Skowronek;Maler;ja
+DL-07;Dachdeckerei Wetterkamp GmbH;Dach;nein
+DL-08;Gebäudeservice Putzmunter GmbH;Reinigung;ja
+DL-09;Gartenbau Grünzeug Bastian;Garten;ja
+DL-10;Aufzugtechnik Liftwerk GmbH;Aufzug;ja
+DL-11;Schlüsseldienst Riegel & Falle;Schlosser;nein
+DL-12;Bautrocknung Feuchtfrei GmbH;Sanitär;nein
+DL-13;Maler & Boden Chwalek;Maler;nein
+DL-14;Dach + Fassade Ruhrort GmbH;Dach;ja
+DL-15;Hausmeisterservice Blitzblank Öney;Sonstiges;ja
+DL-16;Fenstertechnik Klarblick GmbH;Fenster;nein
