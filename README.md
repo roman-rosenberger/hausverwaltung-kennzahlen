@@ -17,6 +17,16 @@ Entstanden in Zusammenarbeit mit Tim Goebel (Goebel & Partner Consulting), der d
 | Datenqualität | `v_datenkonsistenz`, `v_flaechenabweichung` |
 | Gesamtübersicht | `v_auffaelligkeiten` (eine Zeile je Objekt) |
 
+## Dashboard (Power BI)
+Das Dashboard liegt auf denselben Views. Hier die vier Seiten mit dem Testbestand:
+
+| | |
+|---|---|
+| ![Wohnen Übersicht](docs/bilder/01_wohnen_uebersicht.png) | ![Stellplätze und Garagen](docs/bilder/02_stellplaetze_garagen.png) |
+| ![Wohnen Instandhaltung und Markt](docs/bilder/03_wohnen_instandhaltung_markt.png) | ![Gewerbe](docs/bilder/04_gewerbe.png) |
+
+Die Power-BI-Datei kommt in den Ordner `dashboard/`, sobald Server, Datenbank und Stichtag als Parameter eingebaut sind.
+
 ## Stand und Ausblick
 Das Projekt ist nicht fertig. Gerade fertig: das Paket auf frischer Datenbank von null getestet, alle Kontrollwerte stimmen. Als Nächstes testet Tim es an einem echten Bestand (die echten Daten bleiben bei ihm).
 
@@ -29,7 +39,7 @@ Geplant, aus dem Feedback eines Controllers aus der Branche:
 - Power-BI-Datei mit Parametern für Server und Datenbank
 
 ## Datenschutz
-Das Repository enthält keine Daten und keine Power-BI-Dateien. Die Views zeigen Einzelfälle nur mit Vertrags- oder Einheitsnummer, nicht mit Namen.
+Das Repository enthält außer dem synthetischen Testbestand keine Daten. Power-BI-Dateien werden vor dem Hochladen auf Namen und Verbindungsdaten geprüft. Die Views zeigen Einzelfälle nur mit Vertrags- oder Einheitsnummer, nicht mit Namen.
 
 ## Technik
 Stand der Kontrollwerte: Testbestand, Stichtag 31.08.2026. Das komplette Paket (Schema, Laden, Views, Kontrollwerte) ist von null auf PostgreSQL 17 (Windows) und PostgreSQL 16 (Linux) mit dem vollständigen Testbestand durchgelaufen; alle Kontrollwerte stimmen. Es sind keine Erweiterungen nötig.

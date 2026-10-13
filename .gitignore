@@ -6,9 +6,12 @@ data/
 *.dump
 *.backup
 dump-*.sql
-# Power-BI-Dateien enthalten oft eingebettete Daten und Verbindungsdaten
+# Power-BI-Dateien enthalten oft eingebettete Daten und Verbindungsdaten.
+# Nur im Ordner dashboard/ erlaubt (nach Pruefung auf Namen und Verbindungsdaten)
 *.pbix
 *.pbit
+!dashboard/*.pbix
+!dashboard/*.pbit
 # Windows / Editor
 Thumbs.db
 desktop.ini
