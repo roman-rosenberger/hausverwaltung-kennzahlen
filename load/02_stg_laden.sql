@@ -1,0 +1,21 @@
+-- CSV-Dateien in die Zwischenschicht laden (psql-Befehl \copy, Pfade relativ zum Aufrufordner).
+-- Erwartet: Ordner daten/ mit den 18 CSV-Dateien, Trennzeichen Semikolon, Kodierung UTF-8, Kopfzeile.
+
+\copy stg.objekt FROM 'daten/objekt.csv' WITH (FORMAT csv, DELIMITER ';', HEADER true, ENCODING 'UTF8')
+\copy stg.einheit FROM 'daten/einheit.csv' WITH (FORMAT csv, DELIMITER ';', HEADER true, ENCODING 'UTF8')
+\copy stg.mietpartei FROM 'daten/mietpartei.csv' WITH (FORMAT csv, DELIMITER ';', HEADER true, ENCODING 'UTF8')
+\copy stg.dienstleister FROM 'daten/dienstleister.csv' WITH (FORMAT csv, DELIMITER ';', HEADER true, ENCODING 'UTF8')
+\copy stg.mietvertrag FROM 'daten/mietvertrag.csv' WITH (FORMAT csv, DELIMITER ';', HEADER true, ENCODING 'UTF8')
+\copy stg.mietanpassung FROM 'daten/mietanpassung.csv' WITH (FORMAT csv, DELIMITER ';', HEADER true, ENCODING 'UTF8')
+\copy stg.vz_anpassung FROM 'daten/vz_anpassung.csv' WITH (FORMAT csv, DELIMITER ';', HEADER true, ENCODING 'UTF8')
+\copy stg.kaution FROM 'daten/kaution.csv' WITH (FORMAT csv, DELIMITER ';', HEADER true, ENCODING 'UTF8')
+\copy stg.mahnung FROM 'daten/mahnung.csv' WITH (FORMAT csv, DELIMITER ';', HEADER true, ENCODING 'UTF8')
+\copy stg.nk_abrechnung FROM 'daten/nk_abrechnung.csv' WITH (FORMAT csv, DELIMITER ';', HEADER true, ENCODING 'UTF8')
+\copy stg.leerstand FROM 'daten/leerstand.csv' WITH (FORMAT csv, DELIMITER ';', HEADER true, ENCODING 'UTF8')
+\copy stg.sollstellung FROM 'daten/sollstellung.csv' WITH (FORMAT csv, DELIMITER ';', HEADER true, ENCODING 'UTF8')
+\copy stg.zahlungseingang FROM 'daten/zahlungseingang.csv' WITH (FORMAT csv, DELIMITER ';', HEADER true, ENCODING 'UTF8')
+\copy stg.zahlungszuordnung FROM 'daten/zahlungszuordnung.csv' WITH (FORMAT csv, DELIMITER ';', HEADER true, ENCODING 'UTF8')
+\copy stg.instandhaltung FROM 'daten/instandhaltung.csv' WITH (FORMAT csv, DELIMITER ';', HEADER true, ENCODING 'UTF8')
+\copy stg.betriebskosten FROM 'daten/betriebskosten.csv' WITH (FORMAT csv, DELIMITER ';', HEADER true, ENCODING 'UTF8')
+\copy stg.marktmiete FROM 'daten/marktmiete.csv' WITH (FORMAT csv, DELIMITER ';', HEADER true, ENCODING 'UTF8')
+\copy stg.vpi_index FROM 'daten/vpi_index.csv' WITH (FORMAT csv, DELIMITER ';', HEADER true, ENCODING 'UTF8')

@@ -1,0 +1,15 @@
+# Daten gehoeren nie ins Repository (auch keine synthetischen ohne Freigabe des Eigentuemers)
+daten/
+data/
+*.csv
+*.dump
+*.backup
+dump-*.sql
+# Power-BI-Dateien enthalten oft eingebettete Daten und Verbindungsdaten
+*.pbix
+*.pbit
+# Windows / Editor
+Thumbs.db
+desktop.ini
+.vscode/
+*.zip
