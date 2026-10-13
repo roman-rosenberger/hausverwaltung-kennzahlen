@@ -1,7 +1,38 @@
-# Kennzahlen-Layer Hausverwaltung (PostgreSQL, Schema `immo`)
+# Kennzahlen-Layer für Hausverwaltungen
 
-SQL-Views für das Hausverwaltungs-Reporting mit Ladeskript für CSV-Dateien. Stand: Testbestand, Stichtag 31.08.2026.
-Views und Kontrollwerte: geprüft mit PostgreSQL 17 am vollständigen Testbestand. Ladeskript und Installation: zusätzlich mit Beispielzeilen unter PostgreSQL 16 ausgeführt. Es sind keine Erweiterungen nötig.
+Standardisierte Kennzahlen für das Reporting von Hausverwaltungen: 24 SQL-Views auf PostgreSQL (Schema `immo`), dazu ein Ladeskript für CSV-Exporte und ein Power-BI-Dashboard (vom Portfolio bis zur einzelnen Einheit).
+
+**Warum?** Viele Verwaltungen haben weniger Überblick über ihre Daten, als man denkt: offene Forderungen trotz voller Vermietung, Bestände unter Marktmiete, Instandsetzungskosten weit über dem Richtwert. Dieses Projekt macht solche Effekte mit einheitlichen Definitionen sichtbar.
+
+Entstanden in Zusammenarbeit mit Tim Goebel (Goebel & Partner Consulting), der die Verwalterseite und einen synthetischen Testbestand beisteuert (8 Objekte im Ruhrgebiet, 205 Einheiten, 36 Monate, rund 51.000 Datenzeilen).
+
+## Kennzahlen
+| Bereich | Views (Auswahl) |
+|---|---|
+| Leerstand | `v_leerstand`, `v_leerstand_wirtschaftlich`, `v_leerstand_sanierung`, `v_leerstandsdauer` |
+| Fluktuation | `v_fluktuation` |
+| Forderungen | `v_forderungen_aging`, `v_forderungen_position`, `v_forderungen_gewerbe`, `v_forderungen_saldo`, `v_klaerfaelle` |
+| Instandhaltung | `v_instandhaltung`, `v_instandhaltung_benchmark`, `v_instandhaltung_rollierend`, `v_instandhaltung_ausreisser` |
+| Mieten und Markt | `v_aktuelle_miete`, `v_marktvergleich`, `v_mietanpassung_aktualitaet`, `v_mietanpassung_intervall`, `v_gewerbe` (Indexpotenzial) |
+| Datenqualität | `v_datenkonsistenz`, `v_flaechenabweichung` |
+| Gesamtübersicht | `v_auffaelligkeiten` (eine Zeile je Objekt) |
+
+## Stand und Ausblick
+Das Projekt ist nicht fertig. Gerade fertig: das Paket auf frischer Datenbank von null getestet, alle Kontrollwerte stimmen. Als Nächstes testet Tim es an einem echten Bestand (die echten Daten bleiben bei ihm).
+
+Geplant, aus dem Feedback eines Controllers aus der Branche:
+- Forderungen: zusätzliche Aging-Klasse „über 1 Jahr“ (Wertberichtigung)
+- Indexfristen auch für Wohnungsmietverträge
+- Infofelder je Kennzahl im Dashboard
+- Fluktuationsschwelle je Region einstellbar
+- Wirtschaftlichkeit je Mandat (Aufwand gegen Honorar); offen sind Definition und Datenquelle, da die Stunden aus der Zeiterfassung kommen
+- Power-BI-Datei mit Parametern für Server und Datenbank
+
+## Datenschutz
+Das Repository enthält keine Daten und keine Power-BI-Dateien. Die Views zeigen Einzelfälle nur mit Vertrags- oder Einheitsnummer, nicht mit Namen.
+
+## Technik
+Stand der Kontrollwerte: Testbestand, Stichtag 31.08.2026. Views und Kontrollwerte: geprüft mit PostgreSQL 17 am vollständigen Testbestand. Ladeskript und Installation: zusätzlich mit Beispielzeilen unter PostgreSQL 16 ausgeführt. Es sind keine Erweiterungen nötig.
 
 ## Inhalt
 | Datei / Ordner | Zweck |
