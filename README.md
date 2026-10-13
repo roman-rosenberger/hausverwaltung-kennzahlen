@@ -25,7 +25,11 @@ Das Dashboard liegt auf denselben Views. Hier die vier Seiten mit dem Testbestan
 | ![Wohnen Übersicht](docs/bilder/01_wohnen_uebersicht.png) | ![Stellplätze und Garagen](docs/bilder/02_stellplaetze_garagen.png) |
 | ![Wohnen Instandhaltung und Markt](docs/bilder/03_wohnen_instandhaltung_markt.png) | ![Gewerbe](docs/bilder/04_gewerbe.png) |
 
-Die Power-BI-Datei liegt in `dashboard/Power_BI_Hausverwaltung.pbix` (Testbestand eingebettet, Stand: erste Version). Eine Version mit Parametern für Server, Datenbank und Stichtag, die ohne Anpassung auf eine eigene Datenbank zeigt, folgt.
+Im Ordner `dashboard/` liegen zwei Dateien: `Power_BI_Hausverwaltung.pbit` (Vorlage) und `Power_BI_Hausverwaltung.pbix` (gleicher Inhalt als Datei). Die Daten sind nicht in den Dateien gespeichert (DirectQuery), es gibt keine Zugangsdaten und keine Klarnamen. Der Stichtag kommt aus `immo.parameter_stichtag`, die Jahresangaben („Vorjahr“) leiten sich daraus ab.
+
+**Benutzung:** Die Datenbank aus dem Paket aufsetzen (siehe unten), dann die `.pbit` öffnen und **Server** (z. B. `localhost`) und **Datenbank** (Name der Datenbank mit dem Schema `immo`) eintragen, danach beim ersten Laden Benutzer und Passwort eingeben. Beide Eingaben sind Power-Query-Parameter und lassen sich später unter *Daten transformieren → Parameter verwalten* ändern. Nach einer Änderung des Stichtags in der Datenbank genügt *Start → Abfragen → Aktualisieren → Daten*.
+
+Stand: Die Datei ist gegen PostgreSQL 17 mit den Beispieldaten getestet. Die Jahresliste in der Tabelle `Jahrestabelle` (2023 bis 2026) ist fest hinterlegt und muss bei neueren Daten ergänzt werden.
 
 ## Stand und Ausblick
 Das Projekt ist nicht fertig. Gerade fertig: das Paket auf frischer Datenbank von null getestet, alle Kontrollwerte stimmen. Als Nächstes testet Tim es an einem echten Bestand (die echten Daten bleiben bei ihm).
@@ -36,7 +40,6 @@ Geplant, aus dem Feedback eines Controllers aus der Branche:
 - Infofelder je Kennzahl im Dashboard
 - Fluktuationsschwelle je Region einstellbar
 - Wirtschaftlichkeit je Mandat (Aufwand gegen Honorar); offen sind Definition und Datenquelle, da die Stunden aus der Zeiterfassung kommen
-- Power-BI-Datei mit Parametern für Server und Datenbank
 
 ## Datenschutz
 Das Repository enthält außer dem synthetischen Testbestand keine Daten. Power-BI-Dateien werden vor dem Hochladen auf Namen und Verbindungsdaten geprüft. Die Views zeigen Einzelfälle nur mit Vertrags- oder Einheitsnummer, nicht mit Namen.
