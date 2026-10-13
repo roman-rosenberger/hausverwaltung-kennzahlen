@@ -25,7 +25,7 @@ Das Dashboard liegt auf denselben Views. Hier die vier Seiten mit dem Testbestan
 | ![Wohnen Übersicht](docs/bilder/01_wohnen_uebersicht.png) | ![Stellplätze und Garagen](docs/bilder/02_stellplaetze_garagen.png) |
 | ![Wohnen Instandhaltung und Markt](docs/bilder/03_wohnen_instandhaltung_markt.png) | ![Gewerbe](docs/bilder/04_gewerbe.png) |
 
-Die Power-BI-Datei kommt in den Ordner `dashboard/`, sobald Server, Datenbank und Stichtag als Parameter eingebaut sind.
+Die Power-BI-Datei liegt in `dashboard/Power_BI_Hausverwaltung.pbix` (Testbestand eingebettet, Stand: erste Version). Eine Version mit Parametern für Server, Datenbank und Stichtag, die ohne Anpassung auf eine eigene Datenbank zeigt, folgt.
 
 ## Stand und Ausblick
 Das Projekt ist nicht fertig. Gerade fertig: das Paket auf frischer Datenbank von null getestet, alle Kontrollwerte stimmen. Als Nächstes testet Tim es an einem echten Bestand (die echten Daten bleiben bei ihm).
