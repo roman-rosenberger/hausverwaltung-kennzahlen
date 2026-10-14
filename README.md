@@ -113,3 +113,9 @@ Alle Views lesen ihn über `immo.stichtag()`. Fluktuationsjahre und Vorjahr werd
 - Die Spaltennamen `…_2025` in `v_auffaelligkeiten` sind historisch. Inhaltlich ist es das Vorjahr des Stichtags.
 - Mietanpassung: gemessener Abstand im Schnitt 3,3 Jahre gegen 1,5 Jahre erwartet, Ursache ungeklärt.
 - Keine Mandatsebene: Auswertung nur je Objekt.
+
+## Autor
+
+Roman Rosenberger — über 10 Jahre Immobilienpraxis (Projektentwicklung und Vertrieb), jetzt in Weiterbildung zum IHK Data Analyst (Abschluss April 2027). Fokus: Reporting und Prozessautomatisierung für Hausverwaltungen und Bestandshalter. Ab Frühjahr 2027 suche ich ein Praktikum an der Schnittstelle Immobilien und Daten.
+
+[LinkedIn](https://www.linkedin.com/in/roman-rosenberger/)
