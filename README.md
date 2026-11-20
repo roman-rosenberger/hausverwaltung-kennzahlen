@@ -116,6 +116,6 @@ Alle Views lesen ihn über `immo.stichtag()`. Fluktuationsjahre und Vorjahr werd
 
 ## Autor
 
-Roman Rosenberger — über 10 Jahre Immobilienpraxis (Projektentwicklung und Vertrieb), jetzt in Weiterbildung zum IHK Data Analyst (Abschluss April 2027). Fokus: Reporting und Prozessautomatisierung für Hausverwaltungen und Bestandshalter. Ab Frühjahr 2027 suche ich ein Praktikum an der Schnittstelle Immobilien und Daten.
+Roman Rosenberger — über 10 Jahre Immobilienpraxis (Projektentwicklung und Vertrieb), jetzt in Weiterbildung zum IHK Data Analyst (Abschluss April 2027). Fokus: Reporting und Prozessautomatisierung für Hausverwaltungen und Bestandshalter.
 
 [LinkedIn](https://www.linkedin.com/in/roman-rosenberger/)
